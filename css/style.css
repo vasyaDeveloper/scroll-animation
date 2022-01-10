@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header__container {
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    background-color: black;
+}
+
+a {
+    font-size: 1.2rem;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+    background-color: powderblue;
+}
+
+.contacts {
+    background-color: salmon;
+}
+
+.gallery {
+    background-color: springgreen;
+}
+
+.home {
+    background-color: thistle;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: white;
+}
